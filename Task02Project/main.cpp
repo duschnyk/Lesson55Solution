@@ -13,7 +13,7 @@ int main() {
 	{
 		cout << "input second: ";
 		cin >> second;
-	} while (second <0);
+	} while (second < 0);
 
 	cout << "result: " << (equals(first, second) ? "Yes" : "No") << endl;
 
